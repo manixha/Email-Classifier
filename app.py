@@ -1,5 +1,4 @@
 import streamlit as st
-!pip install nltk==3.6.2
 import nltk
 import pickle
 import string
