@@ -50,5 +50,8 @@ if st.button('Predict'):
     # 4. Display
     if result == 1:
         st.header("Spam")
-    else:
+        st.warning('BEWARE OF THE SCAMMERS!', icon="⚠️")
+    elif result == 0:
         st.header("Not Spam")
+        st.success('This message is Legit!', icon="✅")
+
